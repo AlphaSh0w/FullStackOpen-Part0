@@ -1,0 +1,11 @@
+title Create note on sigle page app
+note over Browser
+The user enters a note
+then presses "save"
+end note
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+Server-->Browser: 201 Created
+note over Browser
+The js-code adds the new
+note to the list of notes
+end note
